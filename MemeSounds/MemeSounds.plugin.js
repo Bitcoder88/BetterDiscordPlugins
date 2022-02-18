@@ -6,7 +6,7 @@
  * @author Lonk#6942
  * @authorId 557388558017495046
  * @authorLink https://github.com/Lonk12/
- * @source https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js
+ * @source https://github.com/Bitcoder88/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js
  * @updateUrl https://raw.githubusercontent.com/Bitcoder88/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js
  */
 
