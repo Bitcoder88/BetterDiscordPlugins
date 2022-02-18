@@ -1,19 +1,19 @@
 /**
  * @name MemeSounds
  * @version 0.5.9 (Bitcoder's Experimental Version)
- * @description Plays Memetastic sounds depending on what is being sent in chat. This was heavily inspired by the idea of Metalloriff's bruh plugin so go check him out!
+ * @description [!]Bitcoder 88 Indev Version[!]
  * @invite YMqKjWEVxG
  * @author Lonk#6942
  * @authorId 557388558017495046
  * @authorLink https://github.com/Lonk12/
  * @source https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Lonk12/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Bitcoder88/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js
  */
 
 module.exports = (() => {
 	
 	/* Configuration */
-	const config = {info: {name: "Meme Sounds", authors: [{name: "Lonk#6942", discord_id: "557388558017495046", github_username: "Lonk12", twitter_username: "wolfyypaw"},{name: "FlyMaster#2642", discord_id: "459726660359553025", github_username: "Apceniy"}], version: "0.5.9", description: "Plays Memetastic sounds depending on what is being sent in chat. This was heavily inspired by the idea of Metalloriff's bruh plugin so go check him out!", github: "https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js", github_raw: "https://raw.githubusercontent.com/Lonk12/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js"}, defaultConfig: [{id: "setting", name: "Sound Settings", type: "category", collapsible: true, shown: true, settings: [{id: "LimitChan", name: "Limit to the current channel only.", note: "When enabled, sound effects will only play within the currently selected channel.", type: "switch", value: true}, {id: "delay", name: "Sound effect delay.", note: "The delay in miliseconds between each sound effect.", type: "slider", value: 200, min: 10, max: 1000, renderValue: v => Math.round(v) + "ms"}, {id: "volume", name: "Sound effect volume.", note: "How loud the sound effects will be.", type: "slider", value: 1, min: 0.01, max: 1, renderValue: v => Math.round(v*100) + "%"}]}], changelog: [{title: "New Stuff", items: ["simplified the code", "fixed oof and bruh sounds not playing", "fixed sound timings", "fixed sounds not being played in the order they are written", "fixed sound overlapping", "added volume slider in settings"]}]};
+	const config = {info: {name: "Meme Sounds", authors: [{name: "Lonk#6942", discord_id: "557388558017495046", github_username: "Lonk12", twitter_username: "wolfyypaw"},{name: "FlyMaster#2642", discord_id: "459726660359553025", github_username: "Apceniy"}], version: "0.5.9", description: "[!]Bitcoder88 Indev Version[!] Plays Memetastic sounds depending on what is being sent in chat. This was heavily inspired by the idea of Metalloriff's bruh plugin so go check him out!", github: "https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js", github_raw: "https://raw.githubusercontent.com/Lonk12/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js"}, defaultConfig: [{id: "setting", name: "Sound Settings", type: "category", collapsible: true, shown: true, settings: [{id: "LimitChan", name: "Limit to the current channel only.", note: "When enabled, sound effects will only play within the currently selected channel.", type: "switch", value: true}, {id: "delay", name: "Sound effect delay.", note: "The delay in miliseconds between each sound effect.", type: "slider", value: 200, min: 10, max: 1000, renderValue: v => Math.round(v) + "ms"}, {id: "volume", name: "Sound effect volume.", note: "How loud the sound effects will be.", type: "slider", value: 1, min: 0.01, max: 1, renderValue: v => Math.round(v*100) + "%"}]}], changelog: [{title: "New Stuff", items: ["simplified the code", "fixed oof and bruh sounds not playing", "fixed sound timings", "fixed sounds not being played in the order they are written", "fixed sound overlapping", "added volume slider in settings"]}]};
 
 	/* Library Stuff */
 	return !global.ZeresPluginLibrary ? class {
@@ -44,12 +44,12 @@ module.exports = (() => {
 				{re: /hell No/gmi, file: "Hell No WTF man.mp3", duration: 600},
 				{re: /japanese/gmi, file: "Japanese Yoo.mp3", duration: 550},
 				{re: /jumpscare/gmi, file: "Scary Jumpscare Fx.mp3", duration: 250},
-				{re: /Imposter/gmi, file: "SUS Sound effect.mp3", duration: 470}	 
+				{re: /imposter/gmi, file: "SUS Sound effect.mp3", duration: 470}	 
 				{re: /among us/gmi, file: "AMONG US.mp3", duration: 470}	 
 				{re: /sus/gmi, file: "Among Us Theme.mp3", duration: 470}
-				{re: /Imposter/gmi, file: "Hallelujah.mp3", duration: 470}
-				{re: /Moans/gmi, file: "Yamete Kudasai.mp3", duration: 470}
-				{re: /Silence/gmi, file: "Wind.mp3", duration: 470}	
+				{re: /gurenyuu/gmi, file: "Gurenyuu.mp3", duration: 470}
+				{re: /fuck you/gmi, file: "Vine Boom.mp3", duration: 470}
+				{re: /Sacred/gmi, file: "Wind.mp3", duration: 470}	
 			];
 
 			/* Double message event fix */
