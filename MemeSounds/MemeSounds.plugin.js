@@ -37,21 +37,19 @@ module.exports = (() => {
 				{re: /oof/gmi, file: "oof.mp3", duration: 250},
 				{re: /bruh/gmi, file: "bruh.mp3", duration: 470}
 				{re: /dies/gmi, file: "MGS death.mp3", duration: 470}
-				{re: /chinese/gmi, file: "China Old Theme Meme", duration: 470}
+				{re: /chinese/gmi, file: "China Old Theme Meme.mp3", duration: 470}
 				{re: /hallelujah/gmi, file: "Hallelujah.mp3", duration: 470}
 				{re: /moans/gmi, file: "Yamete Kudasai.mp3", duration: 470}
 				{re: /silence/gmi, file: "Wind.mp3", duration: 470}
 				{re: /hell No/gmi, file: "Hell No WTF man.mp3", duration: 600},
 				{re: /japanese/gmi, file: "Japanese Yoo.mp3", duration: 550},
 				{re: /jumpscare/gmi, file: "Scary Jumpscare Fx.mp3", duration: 250},
-				{re: /trollge/gmi, file: "SUS dark fx..mp3", duration: 470}	 
-				{re: /among us/gmi, file: "AMONG US.mp3", duration: 470}
-						 
-				{re: /chinese/gmi, file: "China Old Theme Meme", duration: 470}
-				{re: /Hallelujah/gmi, file: "Hallelujah.mp3", duration: 470}
+				{re: /Imposter/gmi, file: "SUS Sound effect.mp3", duration: 470}	 
+				{re: /among us/gmi, file: "AMONG US.mp3", duration: 470}	 
+				{re: /sus/gmi, file: "Among Us Theme.mp3", duration: 470}
+				{re: /Imposter/gmi, file: "Hallelujah.mp3", duration: 470}
 				{re: /Moans/gmi, file: "Yamete Kudasai.mp3", duration: 470}
-				{re: /Silence/gmi, file: "Wind.mp3", duration: 470}
-				
+				{re: /Silence/gmi, file: "Wind.mp3", duration: 470}	
 			];
 
 			/* Double message event fix */
