@@ -35,20 +35,20 @@ module.exports = (() => {
 				{re: /no?ice/gmi, file: "noice.mp3", duration: 600},
 				{re: /bazinga/gmi, file: "bazinga.mp3", duration: 550},
 				{re: /oof/gmi, file: "oof.mp3", duration: 250},
-				{re: /bruh/gmi, file: "bruh.mp3", duration: 470}
-				{re: /dies/gmi, file: "MGS death.mp3", duration: 470}
-				{re: /chinese/gmi, file: "China Old Theme Meme.mp3", duration: 470}
-				{re: /hallelujah/gmi, file: "Hallelujah.mp3", duration: 470}
-				{re: /moans/gmi, file: "Yamete Kudasai.mp3", duration: 470}
-				{re: /silence/gmi, file: "Wind.mp3", duration: 470}
+				{re: /bruh/gmi, file: "bruh.mp3", duration: 470},
+				{re: /dies/gmi, file: "MGS death.mp3", duration: 470},
+				{re: /chinese/gmi, file: "China Old Theme Meme.mp3", duration: 470},
+				{re: /hallelujah/gmi, file: "Hallelujah.mp3", duration: 470},
+				{re: /moans/gmi, file: "Yamete Kudasai.mp3", duration: 470},
+				{re: /silence/gmi, file: "Wind.mp3", duration: 470},
 				{re: /hell No/gmi, file: "Hell No WTF man.mp3", duration: 600},
 				{re: /japanese/gmi, file: "Japanese Yoo.mp3", duration: 550},
 				{re: /jumpscare/gmi, file: "Scary Jumpscare Fx.mp3", duration: 250},
-				{re: /imposter/gmi, file: "SUS Sound effect.mp3", duration: 470}	 
-				{re: /among us/gmi, file: "AMONG US.mp3", duration: 470}	 
-				{re: /sus/gmi, file: "Among Us Theme.mp3", duration: 470}
-				{re: /gurenyuu/gmi, file: "Gurenyuu.mp3", duration: 470}
-				{re: /fuck you/gmi, file: "Vine Boom.mp3", duration: 470}
+				{re: /imposter/gmi, file: "SUS Sound effect.mp3", duration: 470},	 
+				{re: /among us/gmi, file: "AMONG US.mp3", duration: 470},
+				{re: /sus/gmi, file: "Among Us Theme.mp3", duration: 470},
+				{re: /gurenyuu/gmi, file: "Gurenyuu.mp3", duration: 470},
+				{re: /fuck you/gmi, file: "Vine Boom.mp3", duration: 470},
 				{re: /Sacred/gmi, file: "Wind.mp3", duration: 470}	
 			];
 
